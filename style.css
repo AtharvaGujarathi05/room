@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background1.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-container {
+    background-color: rgba(19, 18, 16, 0.8); /* Transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+    margin-right: -200px;
+    margin-bottom: 170px;
+}
+
+h1 {
+    align-items: right;
+    text-align: right;
+    margin-top: -700px;
+    font-size: 2.5em;
+    color: #f0eeee;
+    margin-left: 100;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #e8e6e6;
+}
+
+.header-text {
+    text-align: top;
+    margin-top: 50px; /* Adjust distance from the top */
+}
+
+.header-text h1 {
+    text-align:top;
+    font-size: 48px;
+    color: #47ff8d; }
+
+h2 {
+        text-align: top;
+    
+        margin-top: 50px;
+        font-size: 2.5em;
+        color: #f8f7f7;
+    }
+    
+    .button-container {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items:last baseline; /* Centers vertically */
+        height: 100vh; /* Full viewport height to center vertically */
+        margin-top: -100px;
+        margin-bottom: 2px;
+        margin-left: -60px;
+        margin-right: 70px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        background-color: #FF6347;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 50px;
+        cursor: pointer;
+    }
+    
